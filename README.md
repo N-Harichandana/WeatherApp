@@ -12,28 +12,23 @@ The Weather App is a Flutter application that provides users with current weathe
 
 ## Run Locally
 
-Clone the project
+### Steps to run the Mobile Application
 
-```bash
-  git clone https://github.com/N-Harichandana/WeatherApp.git
-```
+1. Run the following command in your desired folder
+sh
+      flutter create appname-in-lowercase
 
-Go to the project directory
+2. Replace the common files provided in  ["WeatherApp"](https://github.com/N-Harichandana/WeatherApp)  with those present in the created folder. You have to add the folder name "images" and "fonts" to your folder.
+3. Add the dependencies:
+sh
+      flutter pub get
 
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  flutter pub get
-```
-Run the project
-
-```bash
-  flutter run
-```
+4. Connect your mobile device to your created folder
+5. Run the code by anyone of the following ways:
+    - Run -> Run Without Debugging (or just Cntrl+F5)
+    - In your terminal, under the created folder, run the following and choose your connected device. 
+sh
+      flutter run
 
 
 ## Dependencies
